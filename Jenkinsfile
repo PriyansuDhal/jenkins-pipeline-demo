@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/PriyansuDhal/react_docker_app.git'
+                git 'https://github.com/PriyansuDhal/jenkins-pipeline-demo.git'
             }
         }
         stage('Build Docker Image') {
